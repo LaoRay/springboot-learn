@@ -1,0 +1,37 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zhengtoon.framework.message.im.config.ImProperties",
+      "name": "toon.im",
+      "type": "com.zhengtoon.framework.message.im.config.ImProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zhengtoon.framework.message.im.config.ImProperties",
+      "name": "toon.im.app-id",
+      "type": "java.lang.String",
+      "description": "im应用appId"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.message.im.config.ImProperties",
+      "name": "toon.im.server-url",
+      "type": "java.lang.String",
+      "description": "Im消息请求路径"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.message.im.config.ImProperties",
+      "name": "toon.im.toon-type",
+      "type": "java.lang.String",
+      "description": "toonType,可不填"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.message.im.config.ImProperties",
+      "name": "toon.im.catalog_id",
+      "type": "java.lang.Integer",
+      "defaultValue": "142",
+      "description": "消息业务类型，默认142为业务"
+    }
+  ]
+}

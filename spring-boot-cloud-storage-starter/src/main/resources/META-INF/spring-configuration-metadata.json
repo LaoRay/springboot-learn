@@ -1,0 +1,83 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zhengtoon.framework.cloud.configuration.StorageConfig",
+      "name": "scloud",
+      "type": "com.zhengtoon.framework.cloud.configuration.StorageConfig"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.cloud.configuration.StorageConfig",
+      "name": "scloud.qiniu",
+      "type": "com.zhengtoon.framework.cloud.configuration.StorageConfig$Qiniu"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.cloud.configuration.StorageConfig",
+      "name": "scloud.toon",
+      "type": "com.zhengtoon.framework.cloud.configuration.StorageConfig$ToonCloud"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zhengtoon.framework.cloud.configuration.StorageConfig$Qiniu",
+      "name": "scloud.qiniu.access-key",
+      "description": "accessKey",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.cloud.configuration.StorageConfig$Qiniu",
+      "name": "scloud.qiniu.bucket",
+      "description": "存储空间名字",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.cloud.configuration.StorageConfig$Qiniu",
+      "name": "scloud.qiniu.domain-name",
+      "description": "存储平台域名，用于文件下载",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.cloud.configuration.StorageConfig$Qiniu",
+      "name": "scloud.qiniu.local",
+      "description": "服务器位置",
+      "type": "com.zhengtoon.framework.cloud.bean.enums.QiniuLocalEnum"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.cloud.configuration.StorageConfig$Qiniu",
+      "name": "scloud.qiniu.secret-key",
+      "description": "secretKey",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.cloud.configuration.StorageConfig$ToonCloud",
+      "name": "scloud.toon.scloud-access-key-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.cloud.configuration.StorageConfig$ToonCloud",
+      "name": "scloud.toon.scloud-assess-key-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.cloud.configuration.StorageConfig$ToonCloud",
+      "name": "scloud.toon.scloud-cloud-app-id",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.cloud.configuration.StorageConfig$ToonCloud",
+      "name": "scloud.toon.scloud-server-host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.cloud.configuration.StorageConfig$ToonCloud",
+      "name": "scloud.toon.scloud-signature",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.cloud.configuration.StorageConfig",
+      "name": "scloud.type",
+      "description": "云类型 思源云，fastdfs，七牛",
+      "type": "com.zhengtoon.framework.cloud.bean.enums.CloudTypeEnum"
+    }
+  ]
+}

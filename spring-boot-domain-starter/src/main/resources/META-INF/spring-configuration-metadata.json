@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [],
+  "properties": [
+    {
+      "name": "domain.performance.enable",
+      "description": "sql执行分析是否开启",
+      "type": "java.lang.Boolean",
+      "defaultValue": true
+    },
+    {
+      "name": "sharding.jdbc.datasource",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "description": "sharding jdbc 数据源相关配置"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zhengtoon.framework.web.configuration.OkHttp3Properties",
+      "name": "okhttp3",
+      "type": "com.zhengtoon.framework.web.configuration.OkHttp3Properties"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.web.configuration.SwaggerProperties",
+      "name": "swagger.info",
+      "type": "com.zhengtoon.framework.web.configuration.SwaggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zhengtoon.framework.web.configuration.OkHttp3Properties",
+      "defaultValue": 10,
+      "name": "okhttp3.connect-timeout",
+      "description": "连接超时时间",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.web.configuration.OkHttp3Properties",
+      "defaultValue": 100,
+      "name": "okhttp3.max-idle-connections",
+      "description": "最大的空闲连接数",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.web.configuration.OkHttp3Properties",
+      "defaultValue": 2,
+      "name": "okhttp3.max-retry",
+      "description": "最大重试次数",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.web.configuration.OkHttp3Properties",
+      "defaultValue": 10,
+      "name": "okhttp3.read-timeout",
+      "description": "读取超时时间",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.web.configuration.OkHttp3Properties",
+      "defaultValue": 10,
+      "name": "okhttp3.write-timeout",
+      "description": "写入超时时间",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.web.configuration.SwaggerProperties",
+      "defaultValue": "com.zhengtoon",
+      "name": "swagger.info.base-package",
+      "description": "解析的包路径",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.web.configuration.SwaggerProperties",
+      "name": "swagger.info.description",
+      "description": "项目描述",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.web.configuration.SwaggerProperties",
+      "defaultValue": true,
+      "name": "swagger.info.enable",
+      "description": "是否启用",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.web.configuration.SwaggerProperties",
+      "name": "swagger.info.title",
+      "description": "项目名称",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.web.configuration.SwaggerProperties",
+      "name": "swagger.info.version",
+      "description": "项目版本",
+      "type": "java.lang.String"
+    }
+  ]
+}

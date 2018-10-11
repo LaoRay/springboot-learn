@@ -1,0 +1,48 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zhengtoon.framework.uias.configuration.UiasInfoConfig",
+      "name": "app.info",
+      "type": "com.zhengtoon.framework.uias.configuration.UiasInfoConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zhengtoon.framework.uias.configuration.UiasInfoConfig",
+      "name": "uias.info.accessTokenUrl",
+      "description": "accessTokenUrl",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.uias.configuration.UiasInfoConfig",
+      "name": "uias.info.clientId",
+      "description": "appId",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.uias.configuration.UiasInfoConfig",
+      "name": "uias.info.redirectUrl",
+      "description": "redirectUrl",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.uias.configuration.UiasInfoConfig",
+      "name": "uias.info.secretKey",
+      "description": "appSecret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.uias.configuration.UiasInfoConfig",
+      "name": "uias.info.sessionTimeOut",
+      "description": "sessionTimeOut",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.uias.configuration.UiasInfoConfig",
+      "name": "uias.info.userInfoUrl",
+      "description": "userInfoUrl",
+      "type": "java.lang.String"
+    }
+  ]
+}

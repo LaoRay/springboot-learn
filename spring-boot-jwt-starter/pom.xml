@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zhengtoon.framework</groupId>
+    <artifactId>spring-boot-jwt-starter</artifactId>
+    <version>1.0.4</version>
+
+    <packaging>jar</packaging>
+
+    <parent>
+        <groupId>com.zhengtoon.app</groupId>
+        <artifactId>zhengtoon-app-parent</artifactId>
+        <version>1.0.1</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.zhengtoon.framework</groupId>
+            <artifactId>zhengtoon-framework-web</artifactId>
+            <version>1.0.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+</project>

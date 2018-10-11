@@ -1,0 +1,21 @@
+{
+  "properties": [
+    {
+      "defaultValue": true,
+      "name": "disconf.properties.enable",
+      "description": "是否启动disconf 默认开启",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "disconf.properties.names",
+      "description": "托管文件的名称 多个用逗号,分隔",
+      "type": "java.lang.String"
+    },
+    {
+      "defaultValue": "com.zhengtoon",
+      "name": "disconf.scan.package",
+      "description": "disconf扫描包路径",
+      "type": "java.lang.String"
+    }
+  ]
+}

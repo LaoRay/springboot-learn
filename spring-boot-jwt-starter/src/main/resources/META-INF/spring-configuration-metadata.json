@@ -1,0 +1,80 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zhengtoon.framework.jwt.config.JwtProperteis",
+      "name": "jwt",
+      "type": "com.zhengtoon.framework.jwt.config.JwtProperteis"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.jwt.config.UiasInfoConfig",
+      "name": "app.info",
+      "type": "com.zhengtoon.framework.jwt.config.UiasInfoConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zhengtoon.framework.jwt.config.JwtProperteis",
+      "defaultValue": 30,
+      "name": "jwt.expires",
+      "type": "java.lang.Integer",
+      "description": "token过期时间"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.jwt.config.JwtProperteis",
+      "defaultValue": "zhengtoon",
+      "name": "jwt.name",
+      "type": "java.lang.String",
+      "description": "签发名称"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.jwt.config.JwtProperteis",
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "加密签名"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.jwt.config.JwtProperteis",
+      "defaultValue": "true",
+      "name": "jwt.is-user-uias",
+      "type": "java.lang.Boolean",
+      "description": "是否需要统一身份认证"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.jwt.config.UiasInfoConfig",
+      "name": "uias.info.accessTokenUrl",
+      "description": "accessTokenUrl",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.jwt.config.UiasInfoConfig",
+      "name": "uias.info.clientId",
+      "description": "appId",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.jwt.config.UiasInfoConfig",
+      "name": "uias.info.redirectUrl",
+      "description": "redirectUrl",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.jwt.config.UiasInfoConfig",
+      "name": "uias.info.secretKey",
+      "description": "appSecret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.jwt.config.UiasInfoConfig",
+      "name": "uias.info.sessionTimeOut",
+      "description": "sessionTimeOut",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zhengtoon.framework.jwt.config.UiasInfoConfig",
+      "name": "uias.info.userInfoUrl",
+      "description": "userInfoUrl",
+      "type": "java.lang.String"
+    }
+  ]
+}

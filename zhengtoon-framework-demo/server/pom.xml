@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zhengtoon.framework</groupId>
+    <artifactId>zhengtoon-framework-demo</artifactId>
+    <version>1.0.0</version>
+
+    <packaging>jar</packaging>
+
+    <parent>
+        <groupId>com.zhengtoon.app</groupId>
+        <artifactId>zhengtoon-app-parent</artifactId>
+        <version>1.0.2</version>
+    </parent>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>com.zhengtoon.framework</groupId>-->
+            <!--<artifactId>spring-boot-uias-starter</artifactId>-->
+            <!--<version>1.0.4</version>-->
+        <!--</dependency>-->
+
+        <dependency>
+            <groupId>com.zhengtoon.framework</groupId>
+            <artifactId>spring-boot-disconf-starter</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
+        <!--云存储接口包-->
+        <dependency>
+            <groupId>com.zhengtoon.framework</groupId>
+            <artifactId>spring-boot-cloud-storage-starter</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+
+        <!--具体存储的实现包，需要单独依赖，思源云-->
+        <dependency>
+            <groupId>com.systoon</groupId>
+            <artifactId>SCloudLightSDK</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-log4j12</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.zhengtoon.framework</groupId>
+            <artifactId>spring-boot-domain-starter</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
+        <!-- jwt和uias只能引入一个-->
+        <dependency>
+            <groupId>com.zhengtoon.framework</groupId>
+            <artifactId>spring-boot-jwt-starter</artifactId>
+            <version>1.0.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.zhengtoon.framework</groupId>
+            <artifactId>zhengtoon-framework-web</artifactId>
+            <version>1.0.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zhengtoon.framework</groupId>
+            <artifactId>spring-boot-crawl-starter</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zhengtoon.framework</groupId>
+            <artifactId>spring-boot-distribute-lock-starter</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.11.2</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <fork>true</fork>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
