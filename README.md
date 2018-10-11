@@ -1,4 +1,4 @@
-<h1>《政通框架组件说明》</h1>
+<h1>《框架组件说明》</h1>
 - [读写分离数据源配置(集成druid数据源)](#读写分离)
 - [Mybatis-plus集成](#mybatis-plus集成)
 - [controller模板方法](#controller层模板方法)
